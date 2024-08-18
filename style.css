@@ -19,7 +19,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
 }
@@ -53,7 +53,7 @@ a {
     align-items: center;
 }
 
-/* Avant ce commentaire il y a tout le css du header avec la navbar */
+/* Avant ce commentaire il y a tout le css de la navbar */
 
 .header {
     background-color: #1F2937;
@@ -84,7 +84,7 @@ a {
     margin-right: 50px;
 }
 
-.header button {
+button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 35px;
@@ -93,4 +93,115 @@ a {
     font-weight: bolder;
     margin-top: 15px;
     border: none;
+}
+
+/* Avant ce commentaire il y a le css de la partie avec le titre principal et la photo sur fond bleu marine */
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+.boxes ul {
+    list-style: none;
+}
+
+.boxes li {
+    max-width: 145px;
+
+}
+
+.boxes p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.boxes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.boxes .container ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Avant ce commentaire figure le css de la partie avec les boites */
+
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 25px;
+}
+
+.autor {
+    color: #121820;
+    font-weight: bolder;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section .container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+/* ci dessus, la partie de la citation */
+
+.newsletter .container {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.newsletter button {
+    margin-left: 200px;
+    border: 2px solid #F9FAF8;
+}
+
+.newsletter .text {
+    font-weight: bolder;
+    font-size: x-large;
+    color: #F9FAF8;
+}
+
+.newsletter .subtext {
+    color: #E5E7EB;
+}
+
+/* Ci dessus la partie avec l'encadré bleu de la newsletter */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer .container {
+    color: #E5E7EB;
+    padding: 30px;   
+    font-size: 14px;
 }
