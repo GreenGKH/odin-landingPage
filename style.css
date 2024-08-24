@@ -67,7 +67,7 @@ a {
 }
 
 .header img {
-    width: 450px;
+    width: 500px;
     height: auto;
     border-radius: 5px;
 }
@@ -134,6 +134,7 @@ h2 {
 .boxes .container ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* Avant ce commentaire figure le css de la partie avec les boites */
